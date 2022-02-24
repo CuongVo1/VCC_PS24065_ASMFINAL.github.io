@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&family=Work+Sans:wght@200&display=swap');
+
+*{
+    font-family: 'Work Sans', sans-serif; 
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none;border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s linear ;
+}
+html,body{
+    margin: 0;
+    padding: 10px;
+    background: #010103;
+}
+.header{
+    background:#010103;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 7%;
+    border-bottom: .1rem solid rgba(255,255,255,.3);
+    position: fixed;
+    top:0;left: 0;right: 0;
+    z-index: 1000;
+}
+.header .logo img{
+    height: 6rem;
+
+}
+.header .navbar a{
+    margin: 0 1rem;
+    font-size: 1.6rem;
+    color: #fff;
+
+}
+.header .navbar a:hover{
+    color:#d3ad7f;
+    border-bottom: .1rem solid #d3ad7f;
+    padding-bottom: .5rem;
+}
+.header .icon ion-icon{
+    color: #fff;
+    cursor: pointer;
+    font-size: 2.5rem;
+    margin-left: 1rem;
+}
+
+.hearder .search-form{
+    position: absolute;
+    top: 115%; right: 7%;
+    background: #fff;
+    width: 50rem;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    transform:scaleY(0) ;
+    transform-origin:top ;
+}
+.hearder .search-form input{
+    height: 40px;
+    width: 275px;
+    font-size: 1.6rem;
+    color: #13131a;
+    padding: 1rem;
+    text-transform: none;
+    
+}
+.hearder .search-form label{
+    cursor: pointer;
+    font-size: 5rem;
+    margin-right: 1.5rem;
+    color: #13131a;
+
+}
+.hearder .search-form lable:hover{
+    color:#d3ad7f;
+}
+
+.Box{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .9rem 3rem;
+    font-size: 1.7rem;
+    color: #fff;
+    background:#d3ad7f;
+    cursor: pointer;
+    margin: 1rem;
+
+}
+section{
+    padding:2rem 7%;
+}
+.noidung .container{
+    width: 80%;
+    margin: 0 auto;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    background-color: #13131a;
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px double orangered;
+    
+}
+
+iframe{
+    width: 100%;
+    height:100%;
+}
+.video1{
+    width: 80%;
+    height:100%;
+    border: .1rem solid rgba(255,255,255,.3)
+
+    
+}

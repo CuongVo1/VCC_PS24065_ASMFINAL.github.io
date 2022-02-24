@@ -1,0 +1,121 @@
+
+
+
+*{
+     
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none;border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s linear ;
+}
+body{
+    background: rgb(235, 235, 224);
+}
+.header{
+    background:#fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 7%;
+    border-bottom: .1rem solid rgba(255,255,255,.3);
+    position: fixed;
+    top:0;left: 0;right: 0;
+    z-index: 1000;
+}
+.header .logo img{
+    height: 6rem;
+
+}
+.header .navbar a{
+    margin: 0 1rem;
+    font-size: 1.6rem;
+    color: #13131a;
+
+}
+.header .navbar a:hover{
+    color:#d3ad7f;
+    border-bottom: .1rem solid #d3ad7f;
+    padding-bottom: .5rem;
+}
+
+
+.hearder .search-form{
+    position: absolute;
+    top: 115%; right: 7%;
+    background: #fff;
+    border-bottom: #13131a;
+    width: 50rem;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    transform:scaleY(0) ;
+    transform-origin:top ;
+}
+.hearder .search-form input{
+    height: 40px;
+    width: 275px;
+    font-size: 1.6rem;
+    color: #13131a;
+    padding: 1rem;
+    text-transform: none;
+    
+}
+.hearder .search-form label{
+    cursor: pointer;
+    font-size: 5rem;
+    margin-right: 1.5rem;
+    color: #13131a;
+
+}
+.hearder .search-form lable:hover{
+    color:#d3ad7f;
+}
+section{
+    padding: 5rem 7%;
+}
+.Dacsan{
+    margin: 1rem 10% 1rem 10%;
+    background: #fff;
+    align-items: center;
+    vertical-align: middle;
+
+}
+.Dacsan .Demve{
+    
+    margin: 1rem 8% 1rem 8%;
+    line-height: 2.5rem;
+
+}
+
+img{
+    align-items: center;
+}
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 1.7rem;
+}
+h3{
+    font-size: 1.5rem;
+}
+h4{
+    font-size: 1.5rem;
+}
+h5{
+    font-size: 1.5rem;
+}
+.Banh{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+p{
+    font-weight: 100;
+    font-size: 1.4rem;
+}
+span{
+    font-weight: 600;
+    font-size: 1.4rem;   
+}

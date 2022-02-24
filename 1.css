@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+
+*{
+    font-family: 'Ubuntu', sans-serif;  
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none;border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s linear ;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+
+}
+
+body{
+    background: #010103
+}
+section{
+    padding:2rem 7%;
+}
+
+.header{
+    background:#010103;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 7%;
+    border-bottom: .1rem solid rgba(255,255,255,.3);
+    position: fixed;
+    top:0;left: 0;right: 0;
+    z-index: 1000;
+}
+.header .logo img{
+    height: 6rem;
+
+}
+.header .navbar a{
+    margin: 0 1rem;
+    font-size: 1.6rem;
+    color: #fff;
+
+}
+.header .navbar a:hover{
+    color:#d3ad7f;
+    border-bottom: .1rem solid #d3ad7f;
+    padding-bottom: .5rem;
+}
+.header .icon ion-icon{
+    color: #fff;
+    cursor: pointer;
+    font-size: 2.5rem;
+    margin-left: 1rem;
+}
+
+.hearder .search-form{
+    position: absolute;
+    top: 115%; right: 7%;
+    background: #fff;
+    width: 50rem;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    transform:scaleY(0) ;
+    transform-origin:top ;
+}
+.hearder .search-form input{
+    height: 40px;
+    width: 275px;
+    font-size: 1.6rem;
+    color: #13131a;
+    padding: 1rem;
+    text-transform: none;
+    
+}
+.hearder .search-form label{
+    cursor: pointer;
+    font-size: 5rem;
+    margin-right: 1.5rem;
+    color: #13131a;
+
+}
+.hearder .search-form lable:hover{
+    color:#d3ad7f;
+}
+
+.Box{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .9rem 3rem;
+    font-size: 1.7rem;
+    color: #fff;
+    background:#d3ad7f;
+    cursor: pointer;
+
+}
+.Box:hover{
+    letter-spacing: .2rem;
+}
+.trangchu{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(image/scenery-ga5de7e4bb_1920.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.trangchu .content{
+    max-width: 60rem;
+}
+.trangchu .content h3{
+    font-size: 6rem;
+    text-transform: uppercase;
+    color: #fff;
+}
+.trangchu .content p{
+    font-size: 1rem;
+    font-weight: lighter;
+    line-height: 1.8;
+    padding: 1rem 0;
+    color: #eee;
+}
+.heading{
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    padding-bottom: 3.5rem;
+    font-size: 4rem;
+}
+.heading span{
+    color:#d3ad7f;
+    text-transform: uppercase;
+}
+.noidung .row{
+    display: flex;
+    align-items: center;
+    background: #13131a;
+    flex-wrap: wrap;
+}
+.noidung .row .image{
+    flex: 1 1 45rem;
+
+}
+.noidung .row .image img{
+    width: 100%;
+    height: 70rem;
+}
+.noidung .row .content{
+    flex: 1 1 45rem;
+    padding: 2rem;
+}
+.noidung .row .content h3{
+    font-size: 4rem;
+    color: #fff;
+}
+.noidung .row .content p{
+    font-size: 1.5rem;
+    color: #ccc;
+    padding: 1rem 0;
+    line-height: 1.8;
+}
+.lienhe .row{
+    display: flex;
+    background: #13131a;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.lienhe .row .vitri{
+    flex: 1 1 45rem;
+    width: 100%;
+    object-fit: cover;
+}
+.lienhe .row form{
+    flex: 1 1 45rem;
+    padding: 5rem 2rem;
+    text-align: center;
+}
+.lienhe .row form h3{
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    color: #fff;
+}
+.lienhe .row form .inputbox{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background:#010103;
+    border:1px solid rgba(255,255,255,.3);
+}
+.lienhe .row form .inputbox span{
+    color: #fff;
+    font-size: 2rem;
+    padding-left: 2rem;
+}
+.lienhe .row form .inputbox input{
+    width: 100%;
+    padding: 2rem;
+    font-size: 1.7rem;
+    color: #fff;
+    text-transform: none;
+    background: none;
+}
+.goiy .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+    gap:1.5rem;
+}
+.goiy .box-container .box{
+    border:1px solid rgba(255,255,255,.3);
+
+}
+.goiy .box-container .box .image{
+    height: 45rem;
+    overflow: hidden;
+    width: 100%;
+}
+.goiy .box-container .box .image img{
+    height:100%;
+    object-fit: cover;
+    width: 100%;
+
+}
+.goiy .box-container .box:hover .image img{
+    transform: scale(1.2);
+}
+.goiy .box-container .box .content{
+    padding: 2rem;
+}
+.goiy .box-container .box .content .title{
+    font-size: 2.5rem;
+    line-height: 1.5;
+    color: #fff;
+
+}
+.goiy .box-container .box .content .title:hover{
+    color:#d3ad7f;
+
+}
+.goiy .box-container .box .content span{
+    color:#d3ad7f;
+    display: block;
+    padding-top: 1rem;
+    font-size: 2rem;
+}
+.goiy .box-container .box .content p{
+    font-size: 1.6rem;
+    line-height: 1.8;
+    color: #ccc;
+    padding: 1rem;
+}
+.footer{
+    background: #13131a;
+    text-align: center;
+
+}
+
+.footer .links{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    gap: 1rem;
+}
+.footer .links a{
+    padding: 3rem 2rem;
+    color: #fff;
+   border: 1px solid rgba(255,255,255,.3); 
+   font-size: 2rem;
+}
+.footer .links a:hover{
+    color: #d3ad7f;
+}
+.footer .credit{
+    font-size: 2rem;
+    color: #fff;
+    font-weight: lighter;
+    padding: 1.5rem;
+
+}
+.footer .credit span{
+    color:#d3ad7f;
+}

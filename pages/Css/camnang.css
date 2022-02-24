@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&family=Work+Sans:wght@200&display=swap');
+
+*{
+    font-family: 'Work Sans', sans-serif; 
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none;border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s linear ;
+}
+.text{
+    color: #fff;
+    position: absolute;
+    top: 20px;
+    font-size: 60px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+.nd1{
+    text-align: center;
+    font-size: 30px;  
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff
+}
+b{
+    font-size: 30px;
+    color: #d3ad7f;
+}
+body{
+    background-color: #13131a;
+}
+video{
+    border-radius: 15px;
+}
+img{
+    margin: 5px;
+}

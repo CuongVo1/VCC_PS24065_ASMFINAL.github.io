@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&family=Work+Sans:wght@200&display=swap');
+
+*{
+    font-family: 'Work Sans', sans-serif; 
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none;border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s linear ;
+}
+.nd{
+    margin: auto;
+    border: 1px solid #999;
+    height: 70px;
+}
+.nd li{
+    display: inline-block;
+    font-size: 20px;
+    width: 140px;
+    height: 120px;
+    
+}
+.nd a:hover{
+    color: red;
+}
+.boxtrai{
+    float: left;
+    width: 100%;
+    min-height: 600px;
+    border: 1px solid #999;
+    position: relative;
+}
+.nd1{
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+}
+.nd1 b{
+    color: #d3ad7f;
+}
